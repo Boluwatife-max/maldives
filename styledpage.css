@@ -1,0 +1,95 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+}
+.logo {
+  font-weight: 700;
+  font-size: 28px;
+  color: white;
+}
+.logo p{
+    color: white;
+}
+.logo span {
+  color: #00bcd4; /* soft aqua */
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1000;
+}
+.links {
+  display: flex;
+  gap: 20px;
+}
+
+.links a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+.links a:hover {
+  color: #00bcd4;
+  background: rgba(255, 255, 255, 0.1);
+}
+.icons i {
+  color: white;
+  margin-left: 15px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+.icons i:hover {
+  color: #00bcd4;
+}
+.home {
+  background-image: url(/images/beach-lagoon-landscape-relaxation-sea.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 80px;
+  color: white;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+}
+.text {
+  width: 50%;
+  max-width: 600px;
+}
+.text h1 {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.text span {
+  font-size: 20px;
+  font-weight: 500;
+  color: #00bcd4;
+  display: block;
+  margin-bottom: 20px;
+}
+.text p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+.btn {
+  padding: 15px 30px;
+  border-radius: 40px;
+  font-size: 18px;
+  font-weight: 600;
+}

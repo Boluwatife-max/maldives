@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', serif;
+  color: #333;
+}
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(0,0,0,0.5);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  z-index: 1000;
+}
+.logo {
+  font-weight: 700;
+  font-size: 28px;
+  color: white;
+}
+
+.logo p {
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+  margin: 0;
+  letter-spacing: 1px;
+}
+.logo span {
+  color: #00bcd4;
+}
+.logo a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.links a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+}
+.links a:hover {
+  color: aqua;
+}
+
+.icons i {
+  margin: 0 10px;
+  cursor: pointer;
+}
+.icons i:hover {
+  color: aqua;
+}
+.hero {
+  background: url('https://i.pinimg.com/736x/3b/3d/94/3b3d945c4eb1a4efbea3b679b85d7c42.jpg') center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 80px;
+  color: white;
+}
+.hero-text {
+  max-width: 500px;
+}
+.hero h1 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: aqua;
+}
+.hero p {
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: black;
+}
+.btn {
+  padding: 12px 25px;
+  border-radius: 30px;
+  background: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+.btn:hover {
+  background: darkblue;
+}
+.about {
+  padding: 80px 20px;
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+}
+.about h2 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+.about-img {
+  margin-top: 20px;
+  width: 80%;
+  max-width: 600px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+.gallery-grid img {
+  height: 250px;
+  object-fit: cover;
+}
+.experiences {
+  background: #f4f4f4;
+  padding: 80px 20px;
+  text-align: center;
+}
+.experiences h2 {
+  margin-bottom: 40px;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+.card img {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+.gallery {
+  padding: 80px 20px;
+  text-align: center;
+}
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+.gallery-grid img {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.contact {
+  padding: 80px 20px;
+  text-align: center;
+  background: linear-gradient(to right, aqua, blue);
+  color: white;
+}
+.contact form {
+  margin-top: 20px;
+}
+.contact input {
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  margin-right: 10px;
+}
+.contact button {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background: white;
+  color: blue;
+  font-weight: bold;
+  cursor: pointer;
+}
+.contact button:hover {
+  background: #eee;
+}
+footer {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+footer .socials i {
+  margin: 0 10px;
+  cursor: pointer;
+}
+footer .socials i:hover {
+  color: aqua;
+}
