@@ -56,6 +56,7 @@ header {
 }
 .home {
   background-image: url('https://i.pinimg.com/1200x/f0/cc/66/f0cc66b5884386036adc2cba8a669d99.jpg');
+  background-position: center;
   background-size: cover;
   height: 100vh;
   display: flex;
@@ -93,5 +94,6 @@ header {
   font-weight: 600;
 
 }
+
 
 
